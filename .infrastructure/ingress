@@ -15,3 +15,6 @@ spec:
             pathType: ImplementationSpecific
             backend:
               service:
+                name: todoapp
+                port:
+                  number: 8000
